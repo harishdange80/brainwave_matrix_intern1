@@ -17,3 +17,6 @@ Basic Features
 4. Task Completion Toggle - Mark tasks as completed with a check button.
 
 5. Local Storage Support - Save tasks in the browser so they persist after a page refresh.
+
+OUTPUT-
+![Document - Personal - Microsoft​ Edge 05-03-2025 13_56_08](https://github.com/user-attachments/assets/1256cee1-ab8b-420b-8643-876b168d78d5)
