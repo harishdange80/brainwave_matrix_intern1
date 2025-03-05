@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+     <header>
+        <h1>Day planner</h1>
+     </header>
+
+     <section class="planner">
+        <div class="time-slot">
+          <div class="time">9:00 AM</div>
+          <input type="text" id="task-9" class="task-input"placeholder="Add a task...">
+          <button class="save-btn"onclick="saveTask(9)">save</button>
+        </div>
+        <div class="time-slot">
+          <div class=" time"> 10:00 AM</div>
+          <input type="text" id=" Task-10" class="task-input"placeholder="Add a task...">
+          <button class="save-btn"onclick="saveTask(10)">save</button>
+        </div>
+        <!-- Add more time slots as needed-->
+        <div class="time-slot">
+          <div class=" time"> 5:00PM </div>
+          <input type="text" id=" Task-17" class="task-input"placeholder="Add a task...">
+          <button class="save-btn"onclick="saveTask(17)">save</button>
+        </div>
+      </section>
+      <footer>
+         <p>Day planner by HARISH DANGE</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+    </body>
